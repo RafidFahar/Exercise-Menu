@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Exercise Menu</string>
+    <string name="labelapp">LOGIN USER</string>
+    <string name="labelappIsi">Menu Hitung Bangun Datar</string>
+
+    <string name="labelappLP">Luas Persegi</string>
+    <string name="labelappKP">Keliling Persegi</string>
+    <string name="labelappLPP">Luas Persegi Panjang</string>
+    <string name="labelappKPP">Keliling Persegi Panjang</string>
+    <string name="labelappLL">Luas Lingkaran</string>
+    <string name="labelappKL">Keliling Lingkaran</string>
+    <string name="labelappLS">Luas Segitiga</string>
+    <string name="labelappKS">Keliling Segitiga</string>
+    <string name="labelappLT">Luas Trapesium</string>
+    <string name="labelappKT">Keliling Trapesium</string>
+
+    <string name="username">Username</string>
+    <string name="masukkan_username">Masukkan Username</string>
+    <string name="pass">Password</string>
+    <string name="masukkan_pass">Masukkan Password</string>
+    <string name="btn_sign">SIGN-IN</string>
+
+    <string name="hitungLuas">Hitung Luas</string>
+    <string name="hitungKeliling">Hitung Keliling</string>
+
+    <string name="hitungHasilLuas">HITUNG LUAS</string>
+    <string name="hitungHasilKeliling">HITUNG KELILING</string>
+
+    <string name="masukkan_sisi">Masukkan sisi :</string>
+    <string name="masukkan_panjang">Masukkan panjang :</string>
+    <string name="masukkan_lebar">Masukkan lebar :</string>
+    <string name="masukkan_jari">Masukkan jari-jari :</string>
+    <string name="masukkan_alas">Masukkan alas :</string>
+    <string name="masukkan_tinggi">Masukkan tinggi :</string>
+    <string name="masukkan_sisiMrg">Masukkan sisi miring :</string>
+    <string name="masukkan_ab">Masukkan AB :</string>
+    <string name="masukkan_ef">Masukkan EF :</string>
+    <string name="masukkan_t">Masukkan t :</string>
+    <string name="masukkan_af">Masukkan AF :</string>
+
+
+</resources>

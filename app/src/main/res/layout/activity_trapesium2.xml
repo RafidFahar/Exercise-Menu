@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Trapesium2">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:layout_width="334dp"
+            android:layout_height="294dp"
+            android:layout_gravity="center"
+            android:src="@drawable/trapezium" />
+
+        <TextView
+            android:id="@+id/tvKelilingTrapesium"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/labelappKT"
+            android:textAlignment="center"
+            android:textColor="@color/judul"
+            android:textSize="35sp"
+            android:textStyle="bold" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TVKelilingTrapesium"
+                android:layout_width="131dp"
+                android:layout_height="35dp"
+                android:text="@string/masukkan_ab"
+                android:textColor="@color/label"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/EditKelilingTrapesium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="@string/masukkan_ab"
+                android:inputType="text"
+                android:textColor="@color/txt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TVKelilingTrapesium1"
+                android:layout_width="131dp"
+                android:layout_height="35dp"
+                android:text="@string/masukkan_ef"
+                android:textColor="@color/label"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/EditKelilingTrapesium1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="@string/masukkan_ef"
+                android:inputType="text"
+                android:textColor="@color/txt" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/TVKelilingTrapesium2"
+                android:layout_width="131dp"
+                android:layout_height="45dp"
+                android:text="@string/masukkan_t"
+                android:textColor="@color/label"
+                android:textSize="13sp" />
+
+            <EditText
+                android:id="@+id/EditKelilingTrapesium2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="8"
+                android:hint="@string/masukkan_t"
+                android:inputType="text"
+                android:textColor="@color/txt" />
+        </TableRow>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:gravity="center">
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:text="@string/hitungKeliling" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
